@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KickbaseApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6df62ee03db3ad6e8603f1f5a233ba1f766b197a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+717bef8d6351f891ac5844f86da5b0089a7db904")]
 [assembly: System.Reflection.AssemblyProductAttribute("KickbaseApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KickbaseApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

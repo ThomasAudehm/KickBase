@@ -43,12 +43,14 @@ internal sealed class KickBaseService : IHostedService
 
         foreach (var player in result.ResultObject)
         {
-            Console.WriteLine($"Name: {player.FirstName} {player.LastName} , Position: {player.Position}, MarketValue: {player.MarketValue}, Price: {player.Price}");
+            Console.WriteLine($"Name: {player.FirstName} {player.LastName}, Position: {player.Position}, MarketValue: {player.MarketValue}, Price: {player.Price}, Transferende {player.TransferEnds}");
         }
+        
+        await StopAsync(cancellationToken);
     }
 
     public Task StopAsync(CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        return Task.CompletedTask;
     }
 }

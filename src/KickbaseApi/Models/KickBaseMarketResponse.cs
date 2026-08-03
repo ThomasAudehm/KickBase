@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Globalization;
+using System.Text.Json.Serialization;
 using JetBrains.Annotations;
 
 namespace KickBase.Api.Models;
@@ -42,6 +43,20 @@ public sealed class KickBaseMarketResponse
         public required DateTime DateTime { get; set; }
         [JsonPropertyName("pim")]
         public required string Image { get; set; }
+        [JsonPropertyName("exs")]
+        public int? ExpiresInSeconds { get; set; }
+
+        [JsonIgnore]
+        public string TransferEnds => ExpiresInSeconds is null
+            ? "Keine Endzeitangabe"
+            : SecondsToHHmm(ExpiresInSeconds.Value);
+        
+        private static string SecondsToHHmm(long totalSeconds)
+        {
+            var span = TimeSpan.FromSeconds(totalSeconds);
+            var totalHours = (int)span.TotalHours;
+            return $"{totalHours:D2}:{span.Minutes:D2}";
+        }
     } 
     
     public sealed class User

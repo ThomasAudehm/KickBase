@@ -1,0 +1,12 @@
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\bin\Debug\net10.0\KickBaseDomain.deps.json
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\bin\Debug\net10.0\KickBaseDomain.dll
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\bin\Debug\net10.0\KickBaseDomain.pdb
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\obj\Debug\net10.0\KickBaseDomain.csproj.AssemblyReference.cache
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\obj\Debug\net10.0\KickBaseDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\obj\Debug\net10.0\KickBaseDomain.AssemblyInfoInputs.cache
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\obj\Debug\net10.0\KickBaseDomain.AssemblyInfo.cs
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\obj\Debug\net10.0\KickBaseDomain.csproj.CoreCompileInputs.cache
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\obj\Debug\net10.0\KickBaseDomain.dll
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\obj\Debug\net10.0\refint\KickBaseDomain.dll
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\obj\Debug\net10.0\KickBaseDomain.pdb
+C:\Users\thomas.audehm\source\KickBase\KickBaseDomain\obj\Debug\net10.0\ref\KickBaseDomain.dll

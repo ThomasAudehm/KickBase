@@ -1,0 +1,15 @@
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\bin\Debug\net10.0\KickbaseApi.deps.json
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\bin\Debug\net10.0\KickbaseApi.dll
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\bin\Debug\net10.0\KickbaseApi.pdb
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\bin\Debug\net10.0\KickBaseDomain.dll
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\bin\Debug\net10.0\KickBaseDomain.pdb
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\obj\Debug\net10.0\KickbaseApi.csproj.AssemblyReference.cache
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\obj\Debug\net10.0\KickbaseApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\obj\Debug\net10.0\KickbaseApi.AssemblyInfoInputs.cache
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\obj\Debug\net10.0\KickbaseApi.AssemblyInfo.cs
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\obj\Debug\net10.0\KickbaseApi.csproj.CoreCompileInputs.cache
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\obj\Debug\net10.0\Kickbase.F613D2C0.Up2Date
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\obj\Debug\net10.0\KickbaseApi.dll
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\obj\Debug\net10.0\refint\KickbaseApi.dll
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\obj\Debug\net10.0\KickbaseApi.pdb
+C:\Users\thomas.audehm\source\KickBase\KickbaseApi\obj\Debug\net10.0\ref\KickbaseApi.dll

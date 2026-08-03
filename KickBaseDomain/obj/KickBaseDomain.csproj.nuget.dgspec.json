@@ -1,31 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thomas.audehm\\source\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj": {}
+    "G:\\03_Projects\\C#\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thomas.audehm\\source\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj": {
+    "G:\\03_Projects\\C#\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thomas.audehm\\source\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj",
+        "projectUniqueName": "G:\\03_Projects\\C#\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj",
         "projectName": "KickBaseDomain",
-        "projectPath": "C:\\Users\\thomas.audehm\\source\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj",
-        "packagesPath": "C:\\Users\\thomas.audehm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thomas.audehm\\source\\KickBase\\KickBaseDomain\\obj\\",
+        "projectPath": "G:\\03_Projects\\C#\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj",
+        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+        "outputPath": "G:\\03_Projects\\C#\\KickBase\\KickBaseDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\thomas.audehm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

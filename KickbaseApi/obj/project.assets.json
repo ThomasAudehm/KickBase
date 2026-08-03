@@ -781,31 +781,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thomas.audehm\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Thomas\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thomas.audehm\\source\\KickBase\\KickbaseApi\\KickbaseApi.csproj",
+      "projectUniqueName": "G:\\03_Projects\\C#\\KickBase\\KickbaseApi\\KickbaseApi.csproj",
       "projectName": "KickbaseApi",
-      "projectPath": "C:\\Users\\thomas.audehm\\source\\KickBase\\KickbaseApi\\KickbaseApi.csproj",
-      "packagesPath": "C:\\Users\\thomas.audehm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thomas.audehm\\source\\KickBase\\KickbaseApi\\obj\\",
+      "projectPath": "G:\\03_Projects\\C#\\KickBase\\KickbaseApi\\KickbaseApi.csproj",
+      "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+      "outputPath": "G:\\03_Projects\\C#\\KickBase\\KickbaseApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\thomas.audehm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -813,8 +810,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\thomas.audehm\\source\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj": {
-              "projectPath": "C:\\Users\\thomas.audehm\\source\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj"
+            "G:\\03_Projects\\C#\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj": {
+              "projectPath": "G:\\03_Projects\\C#\\KickBase\\KickBaseDomain\\KickBaseDomain.csproj"
             }
           }
         }

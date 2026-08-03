@@ -6,7 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>KickBase.Export</RootNamespace>
-    </PropertyGroup>
+      <UserSecretsId>e4da813e-76c3-4d38-9aa2-b59e8e8ad194</UserSecretsId>
+  </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="JetBrains.Annotations" Version="2026.2.0" />

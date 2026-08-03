@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="KickbaseApi/KickbaseApi.csproj" />
-  <Project Path="KickBaseDomain/KickBaseDomain.csproj" />
-  <Project Path="KickbaseExport/KickbaseExport.csproj" />
+  <Project Path="src/KickbaseApi/KickbaseApi.csproj" />
+  <Project Path="src/KickBaseDomain/KickBaseDomain.csproj" />
+  <Project Path="src/KickbaseExport/KickbaseExport.csproj" />
 </Solution>

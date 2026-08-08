@@ -12,6 +12,15 @@
       <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.10" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\KickBaseDomain\KickBaseDomain.csproj" />
+      <ProjectReference Include="..\KickBase.Analyzers\KickBase.Analyzers.csproj">
+                        <OutputItemType>Analyzer</OutputItemType>
+                        <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+                        <GlobalAnalyzer>true</GlobalAnalyzer>
+      </ProjectReference>
+        <ProjectReference Include="..\KickBase.Analyzers.CodeFixes\KickBase.Analyzers.CodeFixes.csproj">
+        <OutputItemType>Analyzer</OutputItemType>
+        <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+        </ProjectReference>
+      <ProjectReference Include="..\KickBase.Domain\KickBase.Domain.csproj" />
     </ItemGroup>
 </Project>

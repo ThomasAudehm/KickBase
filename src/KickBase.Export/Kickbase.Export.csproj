@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\KickbaseApi\KickbaseApi.csproj" />
+      <ProjectReference Include="..\Kickbase.Api\KickBase.Api.csproj" />
     </ItemGroup>
 
     <ItemGroup>

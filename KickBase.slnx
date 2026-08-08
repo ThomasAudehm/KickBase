@@ -1,5 +1,8 @@
 <Solution>
-  <Project Path="src/KickbaseApi/KickbaseApi.csproj" />
-  <Project Path="src/KickBaseDomain/KickBaseDomain.csproj" />
-  <Project Path="src/KickbaseExport/KickbaseExport.csproj" />
+  <Project Path="src/KickBase.Analyzers.Codefixes/KickBase.Analyzers.Codefixes.csproj" />
+  <Project Path="src/KickBase.Analyzers/KickBase.Analyzers.csproj" />
+  <Project Path="src/Kickbase.Api/KickBase.Api.csproj" />
+  <Project Path="src/KickBase.Domain/KickBase.Domain.csproj" />
+  <Project Path="src/Kickbase.Export/KickBase.Export.csproj" />
+  <Project Path="tests/KickBase.Tests/KickBase.Tests.csproj" />
 </Solution>

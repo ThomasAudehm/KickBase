@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsPackable>false</IsPackable>
-        <RootNamespace>KickBase.Tests</RootNamespace>
+        <RootNamespace>KickBase.Analyzers.Tests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

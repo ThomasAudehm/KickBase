@@ -17,5 +17,5 @@ services.AddOptions<KickBaseApiOptions>()
 services.AddKickBaseApi();
 
 var host = builder.Build();
-host.Run();
+await host.RunAsync();
 

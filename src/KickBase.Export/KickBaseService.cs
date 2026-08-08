@@ -1,4 +1,6 @@
-﻿using JetBrains.Annotations;
+﻿using System.Globalization;
+using CsvHelper;
+using JetBrains.Annotations;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using KickBase.Api;
@@ -7,24 +9,27 @@ using Microsoft.Extensions.Options;
 namespace KickBase.Export;
 
 [UsedImplicitly]
-internal sealed class KickBaseService : IHostedService
+internal sealed class KickBaseService : BackgroundService
 {
     private readonly ILogger<KickBaseService> _logger;
     private readonly IKickBaseApiClient _apiClient;
     private readonly KickBaseApiOptions  _apiOptions;
+    private readonly IHostApplicationLifetime _appLifetime;
     public KickBaseService(
         ILogger<KickBaseService> logger,
         IKickBaseApiClient apiClient,
-        IOptions<KickBaseApiOptions> options)
+        IOptions<KickBaseApiOptions> options,
+        IHostApplicationLifetime appLifetime)
     {
         _logger = logger;
         _apiClient = apiClient;
         _apiOptions = options.Value;
+        _appLifetime = appLifetime;
     }
-    
-    public async Task StartAsync(CancellationToken cancellationToken)
+
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        var session = await _apiClient.LoginAsync(_apiOptions.ToLoginRequest(), cancellationToken);
+        var session = await _apiClient.LoginAsync(_apiOptions.ToLoginRequest(), stoppingToken);
         if (session.Failed)
         {
             throw new Exception("Login failed");
@@ -35,22 +40,19 @@ internal sealed class KickBaseService : IHostedService
         {
             throw new Exception("League not found");
         }
-        var result = await _apiClient.GetMarketAsync(token, leagueId, cancellationToken); 
+        var result = await _apiClient.GetMarketAsync(token, leagueId, stoppingToken); 
         if(result.Failed)
         {
             throw new Exception("Market not found");
         }
 
-        foreach (var player in result.ResultObject)
+        await using (var writer = new StreamWriter("kickbaseExport.csv"))
+        await using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
         {
-            Console.WriteLine($"Name: {player.FirstName} {player.LastName}, Position: {player.Position}, MarketValue: {player.MarketValue}, Price: {player.Price}, Transferende {player.TransferEnds}");
+            await csv.WriteRecordsAsync(result.ResultObject,  CancellationToken.None);
         }
         
-        await StopAsync(cancellationToken);
+        _appLifetime.StopApplication();
     }
-
-    public Task StopAsync(CancellationToken cancellationToken)
-    {
-        return Task.CompletedTask;
-    }
+    
 }

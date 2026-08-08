@@ -4,5 +4,5 @@
   <Project Path="src/Kickbase.Api/KickBase.Api.csproj" />
   <Project Path="src/KickBase.Domain/KickBase.Domain.csproj" />
   <Project Path="src/Kickbase.Export/KickBase.Export.csproj" />
-  <Project Path="tests/KickBase.Tests/KickBase.Tests.csproj" />
+  <Project Path="tests/KickBase.Analyzers.Tests/KickBase.Analyzers.Tests.csproj" />
 </Solution>
